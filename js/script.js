@@ -11,7 +11,7 @@ createApp({
     },
     
     methods: {
-        greeting: function(){
+        printUser: function(){
             this.result = this.user
         }
     }
