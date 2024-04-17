@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Vue Js -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div>
+            <h1>{{ result }}</h1>
+            <input type="text" id="userName" v-model="user">
+            <button @click="greeting">Click me</button>
+        </div>
+        <div>
+            <img :src="imgName" :alt="imgAlt" class="">
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
